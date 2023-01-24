@@ -10,8 +10,15 @@ const Satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/servi
     attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
 });
 
+const listBaseMaps = {
+    'OSM Standard': osm,
+    'Satellite': Satellite
+};
+
 export const map = L.map('map',{
     layers: [osm],
-    center: center,
-    zoom: zoom,
-})
+    center: [34.5, -4.8],
+    zoom: 9,
+});
+
+export const control = L.control.layers(listBaseMaps).addTo(map);

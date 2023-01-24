@@ -1,5 +1,8 @@
+import { map, control } from './src/map/initMap.js'
 
-import { map } from './src/map/initMap.js'
+init();
 
-
-map
+function init() {
+    map;
+    control;
+}
