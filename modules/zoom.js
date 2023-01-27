@@ -1,5 +1,5 @@
-import { map } from '../map/initMap.js';
-import { listEtabPrim, roadsLayer } from '../map/overlayMaps.js';
+import { map } from './map/initMap.js';
+import { listEtabPrim, roadsLayer } from './map/overlayMaps.js';
 
 export function zoomToBounds(e){
     var items = [];

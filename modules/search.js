@@ -1,5 +1,5 @@
-import { listEtabPrim } from "../map/overlayMaps.js";
-import { map } from '../map/initMap.js';
+import { listEtabPrim } from "./map/overlayMaps.js";
+import { map } from './map/initMap.js';
 
 
 export function search(){

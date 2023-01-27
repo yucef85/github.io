@@ -1,9 +1,9 @@
 import listEtabPrimaire from '../../db/listEtabPrimaire.geojson' assert {type: 'json'};
 import wayJSON from '../../db/WAY.geojson' assert {type: 'json'};
 import taounateBorderJSON from '../../db/TAOUNATE.geojson' assert {type: 'json'};
-import { markerBlue, markerGreen, markerRed, markerOrange } from '../marker/marker.js';
-import { zoomToBounds } from '../zoom/zoom.js';
-import { selectRoad, resetSelectRoad } from '../event/event.js';
+import { markerBlue, markerGreen, markerRed, markerOrange } from '../marker.js';
+import { zoomToBounds } from '../zoom.js';
+import { selectRoad, resetSelectRoad } from '../event.js';
 import { map } from './initMap.js';
 
 export const roadsLayer = L.geoJSON(wayJSON,{
