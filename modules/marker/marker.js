@@ -19,7 +19,7 @@ var LeafSmallIcon = L.Icon.extend({
 });
 
 export const markerBlue = new LeafIcon({
-    iconUrl: '../img/markerBlue.svg'
+    iconUrl: '../../img/markerBlue.svg'
 });
 
 export const markerGreen = new LeafIcon({
