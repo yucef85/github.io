@@ -1,6 +1,5 @@
 var LeafIcon = L.Icon.extend({
     options: {
-        shadowUrl: './img/shadow.svg',
         iconSize:   [24, 50],
         iconAnchor: [15, 40],
         popupAnchor:    [-4, -36],
