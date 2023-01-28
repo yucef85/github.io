@@ -8,7 +8,7 @@ import { map } from './initMap.js';
 
 export const roadsLayer = L.geoJSON(wayJSON,{
     style: {opacity: 0},
-    onEachFeature: (feature, layer) => {
+    onEachFeature: () => {
         map.on('zoomend', () => {
             var currentZoom = map.getZoom();
             roadsLayer.eachLayer((layer) => {
@@ -27,7 +27,7 @@ export const taounateBorderLayer = L.geoJSON(taounateBorderJSON,{
     style:{
         "color": "DarkSlateGray",
     },
-    onEachFeature: (feature, layer) => {
+    onEachFeature: () => {
         map.on('zoomend', () => {
             var currentZoom = map.getZoom();
             taounateBorderLayer.eachLayer((layer) => {
