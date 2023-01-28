@@ -76,6 +76,9 @@ export const listEtabPrim = L.geoJSON(listEtabPrimaire,{
             resetSelectRoad();
             selectRoad(e);
             zoomToBounds(e);
-        })  
+        }),
+        layer.feature.properties.searchItem = layer.feature.properties.CD_ETAB
+                                            + ', ' + layer.feature.properties.NOM_ETABL
+                                            + ', ' + layer.feature.properties.NOM_ETABA;
     }
 }).addTo(map);
