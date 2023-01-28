@@ -7,17 +7,17 @@ var LeafIcon = L.Icon.extend({
 });
 
 export const markerBlue = new LeafIcon({
-    iconUrl: './img/markerBlue.svg'
+    iconUrl: '../img/markerBlue.svg'
 });
 
 export const markerGreen = new LeafIcon({
-    iconUrl: './img/markerGreen.svg'
+    iconUrl: '../img/markerGreen.svg'
 });
 
 export const markerRed = new LeafIcon({
-    iconUrl: './img/markerRed.svg'
+    iconUrl: '../img/markerRed.svg'
 });
 
 export const markerOrange = new LeafIcon({
-    iconUrl: './img/markerOrange.svg'
+    iconUrl: '../img/markerOrange.svg'
 });

@@ -1,28 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خريطة تاونات</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-    crossorigin=""/>
-    <link rel="stylesheet" href="./dist/leaflet-search/leaflet-search.src.css" />
-    <link rel="stylesheet" href="./style.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>dpmen</title>
 </head>
+
 <body>
-
-    <div id="map"></div>
-
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-        crossorigin="">
-    </script>
-    <script src="./dist/leaflet-search/leaflet-search.src.js"></script>
-    <script src="./app.js" type="module"></script>
-    <script type="text/javascript" src="https://js.live.net/v7.2/OneDrive.js"></script>
-    
+  <main class="w-screen h-screen py-6 bg-yellow-50 flex flex-wrap items-center justify-center">
+    <div class="bg-white w-72 h-72 shadow-lg rounded m-3">
+      <a href="./primaire/index.html" class=" hover:text-yellow-600 text-gray-700">
+        <div class="h-3/4 w-full">
+          <img class="w-full h-full object-cover rounded-t" src="./img/imag_preprim.jpg" alt="primaire">
+        </div>
+        <div class="w-full h-1/4 p-3 flex items-center justify-center">
+            <span class="text-lg font-semibold uppercase tracking-wide ">السلك الإبتدائي</span>
+        </div>
+      </a>
+    </div>
+    <div class="bg-white w-72 h-72 shadow-lg rounded m-3">
+      <a href="#" class=" hover:text-yellow-600 text-gray-700">
+        <div class="h-3/4 w-full">
+          <img class="w-full h-full object-cover rounded-t" src="./img/imag_college.jpg" alt="college">
+        </div>
+        <div class="w-full h-1/4 p-3 flex items-center justify-center">
+            <span class="text-lg font-semibold uppercase tracking-wide ">السلك الثانوي الإعدادي</span>
+        </div>
+      </a>
+    </div>
+    <div class="bg-white w-72 h-72 shadow-lg rounded m-3">
+      <a href="#" class=" hover:text-yellow-600 text-gray-700">
+        <div class="h-3/4 w-full">
+          <img class="w-full h-full object-cover rounded-t" src="./img/imag_secqualif.jpg" alt="lycée">
+        </div>
+        <div class="w-full h-1/4 p-3 flex items-center justify-center">
+          <span class="text-lg font-semibold uppercase tracking-wide ">السلك الثانوي التأهيلي</span>
+        </div>
+      </a>
+    </div>
+  </main>
 </body>
+
 </html>
