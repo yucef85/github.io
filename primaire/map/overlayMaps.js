@@ -78,7 +78,7 @@ export const listEtabPrim = L.geoJSON(listEtabPrimaire,{
             zoomToBounds(e);
         }),
         layer.feature.properties.searchItem = layer.feature.properties.CD_ETAB
-                                            + ', ' + layer.feature.properties.NOM_ETABL
-                                            + ', ' + layer.feature.properties.NOM_ETABA;
+                                            + ' ' + layer.feature.properties.NOM_ETABL
+                                            + ' ' + layer.feature.properties.NOM_ETABA;
     }
 }).addTo(map);
