@@ -1,4 +1,4 @@
-import { map } from './map/initMap.js';
+import { map } from '../modules/initMap.js';
 
 export const restView = L.control.resetView({
     position: "topleft",

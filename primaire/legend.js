@@ -1,5 +1,5 @@
-import { map } from './map/initMap.js';
-import { etabPrimIcon } from './variable.js';
+import { map } from '../modules/initMap.js';
+import { etabPrimIcon } from '../modules/variable.js';
 
 export var legend = L.control({position: 'bottomright'});
 

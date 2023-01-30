@@ -1,5 +1,5 @@
 import { listEtabPrim } from "./map/overlayMaps.js";
-import { map } from './map/initMap.js';
+import { map } from '../modules/initMap.js';
 
 export const search = map.addControl(
 		L.control.search({
