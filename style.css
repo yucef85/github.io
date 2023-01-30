@@ -17,6 +17,10 @@ html, body {
 .leaflet-popup-content {
     line-height: 1.5 !important;
 }
+
+.leaflet-popup-close-button {
+    left: 0;
+}
 .legend {
     padding: 6px 8px;
     font: 16px Arial, Helvetica, sans-serif;
