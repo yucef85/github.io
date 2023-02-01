@@ -1,12 +1,9 @@
-import { map } from './initMap.js';
-import { urlHome } from './variable.js';
-
 L.Control.HomeButton = L.Control.extend({
 
     options: {
         position: 'bottomleft',
-        href: '#',
-        title: 'title',
+        title: 'home',
+        href: '#'
     },
 
     onAdd: function(map) {
@@ -23,12 +20,6 @@ L.Control.HomeButton = L.Control.extend({
     },
 });
 
-L.control.homeButton = function(options) {
+export const homeButton = function(options) {
     return new L.Control.HomeButton(options)
 };
-
-export const home = L.control.homeButton({
-    position: 'bottomleft',
-    title: 'home',
-    href: urlHome
-}).addTo(map)

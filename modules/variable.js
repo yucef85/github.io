@@ -1,8 +1,20 @@
-export const urlHome = '../index.html'
+export const homeUrl = '../index.html'
 
-export var etabPrimIcon = {
-    'مدرسة مستقلة': '../img/markerBlue.svg',
-    'مركز المجموعة المدرسية': '../img/markerRed.svg',
-    'مؤسسة جماعاتية': '../img/markerOrange.svg',
-    'فرعية': '../img/markerGreen.svg'
-}
+export var etabPrimLegend = [
+    {
+        label: 'مدرسة مستقلة',
+        marker: '../img/markerBlue.svg',
+    },
+    {
+        label: 'مركز المجموعة المدرسية',
+        marker: '../img/markerRed.svg',
+    },
+    {
+        label: 'مؤسسة جماعاتية',
+        marker: '../img/markerOrange.svg',
+    },
+    {
+        label: 'فرعية',
+        marker: '../img/markerGreen.svg',
+    },
+]
