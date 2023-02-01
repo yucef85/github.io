@@ -1,4 +1,4 @@
-var LeafIcon = L.Icon.extend({
+L.Icon.Marker = L.Icon.extend({
     options: {
         iconSize: [25, 50],
         iconAnchor: [10, 50],
@@ -9,18 +9,18 @@ var LeafIcon = L.Icon.extend({
     }
 });
 
-export const markerBlue = new LeafIcon({
+export const markerBlue = new L.Icon.Marker({
     iconUrl: '../img/markerBlue.svg'
 });
 
-export const markerGreen = new LeafIcon({
+export const markerGreen = new L.Icon.Marker({
     iconUrl: '../img/markerGreen.svg'
 });
 
-export const markerRed = new LeafIcon({
+export const markerRed = new L.Icon.Marker({
     iconUrl: '../img/markerRed.svg'
 });
 
-export const markerOrange = new LeafIcon({
+export const markerOrange = new L.Icon.Marker({
     iconUrl: '../img/markerOrange.svg'
 });

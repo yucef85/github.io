@@ -1,4 +1,4 @@
-import { roadsLayer } from './map/overlayMaps.js';
+import { roadsLayer } from './layers.js';
 
 var selectLayer;
 var layer;

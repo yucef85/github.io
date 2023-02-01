@@ -1,6 +1,6 @@
 export const homeUrl = '../index.html'
 
-export var etabPrimLegend = [
+export const etabPrimLegend = [
     {
         label: 'مدرسة مستقلة',
         marker: '../img/markerBlue.svg',

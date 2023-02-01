@@ -1,4 +1,4 @@
-import { listEtabPrim } from "./map/overlayMaps.js";
+import { listEtabPrim } from "./layers.js";
 
 export const search = L.control.search({
 	layer: listEtabPrim,
