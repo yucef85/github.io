@@ -1,6 +1,6 @@
-import listEtabPrimaire from '../../db/listEtabPrimaire.geojson' assert {type: 'json'};
-import wayJSON from '../../db/WAY.geojson' assert {type: 'json'};
-import taounateBorderJSON from '../../db/TAOUNATE.geojson' assert {type: 'json'};
+import listEtabPrimaire from '../db/listEtabPrimaire.geojson' assert {type: 'json'};
+import wayJSON from '../db/WAY.geojson' assert {type: 'json'};
+import taounateBorderJSON from '../db/TAOUNATE.geojson' assert {type: 'json'};
 import { markerBlue, markerGreen, markerRed, markerOrange } from '../modules/marker.js';
 import { zoomToBounds } from './zoom.js';
 import { selectRoad, resetSelectRoad } from './event.js';
