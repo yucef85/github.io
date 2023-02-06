@@ -10,7 +10,7 @@ export const etabPrimLegend = [
         marker: '../img/markerRed.svg',
     },
     {
-        label: 'مؤسسة جماعاتية',
+        label: 'مدرسة جماعاتية',
         marker: '../img/markerOrange.svg',
     },
     {
