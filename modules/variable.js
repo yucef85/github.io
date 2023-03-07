@@ -18,3 +18,12 @@ export const etabPrimLegend = [
         marker: '../img/markerGreen.svg',
     },
 ]
+
+export const etabCollegeLegend = [
+    {
+        label: 'ثانوية إعدادية للتعليم العام',
+        marker: '../img/markerBlue.svg',
+    }
+]
+
+
