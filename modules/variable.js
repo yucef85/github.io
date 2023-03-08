@@ -23,6 +23,10 @@ export const etabCollegeLegend = [
     {
         label: 'ثانوية إعدادية للتعليم العام',
         marker: '../img/markerBlue.svg',
+    },
+    {
+        label: 'ثانوية إعدادية للتعليم العام (تضم قسم داخلي)',
+        marker: '../img/markerGreen.svg',
     }
 ]
 

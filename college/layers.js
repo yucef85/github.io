@@ -27,9 +27,10 @@ export const taounateBorderLayer = L.geoJSON(taounateBorderJSON,{
 
 export const listEtabColl = L.geoJSON(listEtabCollege,{
     pointToLayer: (feature, latlng) => {
-        switch (feature.properties.CD_NETAB) {
-            case 300 : return L.marker(latlng, { icon: markerBlue });
-            
+        if (feature.properties.CD_NETAB == 300 && feature.properties.INTERNAT) {
+            return L.marker(latlng, { icon: markerGreen });  
+        } else {
+            return L.marker(latlng, { icon: markerBlue });
         }
     },
     onEachFeature: (feature, layer) => {
