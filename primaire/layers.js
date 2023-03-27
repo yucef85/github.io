@@ -2,8 +2,8 @@ import listEtabPrimaire from '../db/listEtabPrimaire.geojson' assert {type: 'jso
 import wayJSON from '../db/WAY.geojson' assert {type: 'json'};
 import taounateBorderJSON from '../db/TAOUNATE.geojson' assert {type: 'json'};
 import { markerBlue, markerGreen, markerRed, markerOrange } from '../modules/marker.js';
-//import { zoomToBounds } from './zoom.js';
-//import { selectRoad, resetSelectRoad } from './event.js';
+import { zoomToBounds } from './zoom.js';
+import { selectRoad, resetSelectRoad } from './event.js';
 import { map } from '../modules/initMap.js';
 
 export const roadsLayer = L.geoJSON(wayJSON,{
@@ -73,9 +73,9 @@ export const listEtabPrim = L.geoJSON(listEtabPrimaire,{
             })
         }),
         layer.on('click', (e) => {
-            //resetSelectRoad();
-            //selectRoad(e);
-            //zoomToBounds(e);
+            resetSelectRoad();
+            selectRoad(e);
+            zoomToBounds(e);
         }),
         layer.feature.properties.searchItem = layer.feature.properties.CD_ETAB
                                             + ' ' + layer.feature.properties.NOM_ETABL
