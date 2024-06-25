@@ -1,5 +1,5 @@
-import listEtabCollege from '../db/listEtabCollege.geojson';
-import taounateBorderJSON from '../db/TAOUNATE.geojson';
+import listEtabCollege from '../db/listEtabCollege.geojson'  with {type: 'json'};
+import taounateBorderJSON from '../db/TAOUNATE.geojson'  with {type: 'json'};
 import { markerBlue, markerGreen, markerRed, markerOrange } from '../modules/marker.js';
 import { zoomToBounds } from './zoom.js';
 //import { selectRoad, resetSelectRoad } from './event.js';
